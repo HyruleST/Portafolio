@@ -20,9 +20,13 @@ header{
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.623)), url(./imagenes/technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
+    background: linear-gradient(0deg, var(--azul), rgba(0, 0, 0, 0.575)), url(./imagenes/technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
     background-position: center;
     background-size: cover;
+    color: var(--blaco);
+}
+header h1 a{
+    text-decoration: none;
     color: var(--blaco);
 }
 header ul{
@@ -38,6 +42,11 @@ header ul li a{
     text-decoration: none;
     color: var(--blaco);
     margin: 5px;
+    font-size: 1.5em;
+    transition: all 1s;
+}
+header ul li a:hover{
+    text-decoration: underline;
 }
 header h1{
     border-bottom: 4px solid var(--blaco);
@@ -52,7 +61,10 @@ img{
     transition: all .5s;
 }
 img:hover{
-    box-shadow: 1px 1px 4px 0 var(--azul);
+    position: relative;
+    z-index: 50;
+    width: 350px;
+    height: 400px;
 }
 .contenedor{
     display: flex;
@@ -60,3 +72,35 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.botones{
+    background-color: var(--gris);
+    border: none;
+    border-radius: 16px;
+    width: 6em;
+    height: 2em;
+    transition: all .5s;
+    margin: 10px;
+}
+.botones:hover{
+    background-color: var(--celeste);
+    color: var(--blaco);
+    box-shadow: 1px 1px 2px 0 var(--azul);
+}
+.sub-title{
+    font-size: 3em;
+    text-align: center;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
