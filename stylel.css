@@ -1,0 +1,62 @@
+:root{
+    --black: #1E1E24;
+    --celeste: #07A0C3;
+    --azul: #004FFF;
+    --gris: #E0DDCF;
+    --blaco: #F1F0EA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--black);
+    color: var(--blaco);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.623)), url(./imagenes/technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--blaco);
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: var(--blaco);
+    margin: 5px;
+}
+header h1{
+    border-bottom: 4px solid var(--blaco);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+img{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border: none;
+    transition: all .5s;
+}
+img:hover{
+    box-shadow: 1px 1px 4px 0 var(--azul);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
