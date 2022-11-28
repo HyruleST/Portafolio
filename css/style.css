@@ -23,7 +23,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background: linear-gradient(0deg, var(--azul), rgba(0, 0, 0, 0.575)), url(./imagenes/technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
+    background: linear-gradient(0deg, var(--azul), rgba(0, 0, 0, 0.575)), url(../imagenes/technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
     background-position: center;
     background-size: cover;
     color: var(--blaco);
@@ -69,42 +69,15 @@ img:hover{
     width: 350px;
     height: 400px;
 }
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .images{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.botones{
-    background-color: var(--gris);
-    border: none;
-    border-radius: 16px;
-    width: 6em;
-    height: 2em;
-    transition: all 1s;
-    margin: 10px;
-}
-.botones:hover{
-    background-color: var(--celeste);
-    color: var(--blaco);
-    box-shadow: 1px 1px 4px 0 var(--azul);
-}
 .sub-title{
     font-size: 3em;
     text-align: center;
-}
-.perfil{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
 }
 @media (min-width: 800px) {
     header{
@@ -127,13 +100,6 @@ img:hover{
     header ul li a{
         font-size: 1.7em;
     }
-    .perfil{
-        margin: 20px 0;
-        height: 20vh;
-    }
-    .perfil h3{
-        font-size: 2em;
-    }
     .sub-title{
         font-size: 4em;
     }
@@ -144,10 +110,5 @@ img:hover{
     img:hover{
         width: 550px;
         height: 600px;
-    }
-    .botones{
-        width: 12em;
-        height: 3em;
-        font-size: 1em;
     }
 }
