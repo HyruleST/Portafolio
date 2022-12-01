@@ -104,11 +104,11 @@ img:hover{
         font-size: 4em;
     }
     img{
-        width: 450px;
-        height: 500px;
+        width: 250px;
+        height: 300px;
     }
     img:hover{
-        width: 550px;
-        height: 600px;
+        width: 400px;
+        height: 450px;
     }
 }
